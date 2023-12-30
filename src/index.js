@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
-
 
 const firebaseConfig = {
     apiKey: "AIzaSyBPhShCb-Bay6mDR2jYvT8b8Ed1XdFYUN4",
