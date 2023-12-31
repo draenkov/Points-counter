@@ -100,9 +100,11 @@ p {
 }
 
 .admin-wrap {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 80px 15px;
+  margin: 0;
 }
 
 .admin-item-wrap {
