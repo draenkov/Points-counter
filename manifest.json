@@ -1,6 +1,6 @@
 {
-  "short_name": "Points counter",
-  "name": "Happy New Year!",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.png",
