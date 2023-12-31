@@ -22,7 +22,7 @@ const AdminItem = ({id, name, points}) => {
                 <p className='value'>{points}</p>
             </div>
             <div className='counter-btns'>
-                <button onClick={()=> changeAmount('minus')}>
+                <button className='action-btn' onClick={()=> changeAmount('minus')}>
                     <svg fill="#43B38E" width="20px" height="20px" viewBox="0 -12 32 32" version="1.1"
                          xmlns="http://www.w3.org/2000/svg">
                         <g id="Page-1" stroke="none" strokeWidth="1" fillRule="evenodd">
@@ -35,7 +35,7 @@ const AdminItem = ({id, name, points}) => {
                         </g>
                     </svg>
                 </button>
-                <button onClick={()=> changeAmount('plus')}>
+                <button className='action-btn' onClick={()=> changeAmount('plus')}>
                     <svg fill="#43B38E" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                          xmlnsXlink="http://www.w3.org/1999/xlink"
                          width="20px" height="20px" viewBox="0 0 45.402 45.402"

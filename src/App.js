@@ -1,4 +1,3 @@
-import './App.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Main from "./pages/Main";
 import Admin from "./pages/Admin";
