@@ -21,7 +21,7 @@ const Counter = () => {
 
     return (
         <div className='counter-wrap'>
-            {playersData?.map(({id, name, points}) => <CounterItem key={id} name={name} points={points}  />)}
+            {playersData?.sort((a,b)=>b.points - a.points)?.map(({id, name, points}) => <CounterItem key={id} name={name} points={points} />)}
         </div>
     );
 };
