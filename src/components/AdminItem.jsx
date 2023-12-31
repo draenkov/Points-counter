@@ -18,8 +18,8 @@ const AdminItem = ({id, name, points}) => {
     return (
         <div className='admin-item-wrap'>
             <div className='admin-item'>
-                <p className='name'>{name}</p>
-                <p className='value'>{points}</p>
+                <p className='admin-name'>{name}</p>
+                <p className='admin-value'>{points}</p>
             </div>
             <div className='counter-btns'>
                 <button className='action-btn' onClick={()=> changeAmount('minus')}>
