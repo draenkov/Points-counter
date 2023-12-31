@@ -5,11 +5,11 @@ import Admin from "./pages/Admin";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/points-counter",
         element:  <Main />,
     },
     {
-        path: "/admin",
+        path: "/points-counter/admin",
         element:  <Admin />,
     },
 ]);

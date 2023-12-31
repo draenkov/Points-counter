@@ -8,7 +8,7 @@ const Main = () => {
     return (
         <div className='main'>
             <Counter/>
-            <button onClick={() => navigate('/admin')} className='admin-btn'>Admin</button>
+            <button onClick={() => navigate('/points-counter/admin')} className='admin-btn'>Admin</button>
         </div>
     );
 };

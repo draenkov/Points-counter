@@ -58,7 +58,7 @@ const Admin = () => {
                         : <button className='button' onClick={() => setIsNewGameOpen(true)}>New game</button>}
                 </div>
             </div>
-            <button onClick={() => navigate('/')} className='admin-btn'>Back</button>
+            <button onClick={() => navigate('/points-counter')} className='admin-btn'>Back</button>
         </div>
     );
 };
