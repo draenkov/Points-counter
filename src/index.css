@@ -13,7 +13,7 @@ p {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(125deg, #c28cff 9.34%, rgba(172, 194, 239, 0.87) 83.55%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(125deg, #19547b 9.34%, rgb(255, 216, 155) 83.55%);
 }
 
 .admin {
@@ -21,7 +21,7 @@ p {
   width: 100%;
   min-height: 100vh;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(125deg, #c28cff 9.34%, rgba(172, 194, 239, 0.87) 83.55%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(125deg, #19547b 9.34%, rgb(255, 216, 155) 83.55%);
 }
 
 .counter-wrap {
@@ -100,6 +100,7 @@ p {
 }
 
 .admin-wrap {
+  max-width: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
