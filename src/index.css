@@ -8,7 +8,6 @@ p {
 }
 
 .main {
-  display: flex;
   display: -webkit-flex;
   width: 100%;
   min-height: 100vh;
@@ -18,7 +17,6 @@ p {
 }
 
 .admin {
-  display: flex;
   display: -webkit-flex;
   width: 100%;
   min-height: 100vh;
@@ -28,7 +26,6 @@ p {
 
 .counter-wrap {
   max-width: 1200px;
-  display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,7 +42,6 @@ p {
   border-radius: 8px;
   background: #FFF;
   box-shadow: 2px 2px 6px 0 rgba(102, 102, 102, 0.15);
-  display: flex;
   display: -webkit-flex;
   padding: 40px;
   flex-direction: column;
@@ -71,6 +67,7 @@ p {
 
   @media (max-width: 500px) {
     font-size: 16px;
+    margin: 0;
   }
 }
 
@@ -106,7 +103,6 @@ p {
 }
 
 .admin-wrap {
-  display: flex;
   display: -webkit-flex;
   flex-direction: column;
   gap: 20px;
@@ -114,7 +110,6 @@ p {
 }
 
 .admin-item-wrap {
-  display: flex;
   display: -webkit-flex;
   align-items: center;
   gap: 10px;
@@ -123,7 +118,6 @@ p {
 .admin-item {
   width: 100%;
   min-width: 200px;
-  display: flex;
   display: -webkit-flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +134,6 @@ p {
 }
 
 .counter-btns {
-  display: flex;
   display: -webkit-flex;
   gap: 4px;
 }
